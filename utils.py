@@ -1,15 +1,15 @@
-from sklearn.preprocessing import MinMaxScaler
+# from sklearn.preprocessing import MinMaxScaler
 
-feature_ranges = {
-    'Air temperature [K]': (295, 310),
-    'Process temperature [K]': (300, 320),
-    'Rotational speed [rpm]': (1150, 2890),
-    'Torque [Nm]': (2, 80),
-    'Tool wear [min]': (10, 260),
-    'Power': (2*10, 80*260)
-    }
+# feature_ranges = {
+#     'Air temperature [K]': (295, 310),
+#     'Process temperature [K]': (300, 320),
+#     'Rotational speed [rpm]': (1150, 2890),
+#     'Torque [Nm]': (2, 80),
+#     'Tool wear [min]': (10, 260),
+#     'Power': (2*10, 80*260)
+#     }
 
-scaler = MinMaxScaler(feature_range=(0, 1))
+# scaler = MinMaxScaler(feature_range=(0, 1))
 
 # Preprocessing function
 def preprocess_input(input_data):
