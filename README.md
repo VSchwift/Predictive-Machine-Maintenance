@@ -1,6 +1,6 @@
 # Machine Maintenance Prediction
 
-This project aims to predict machine maintenance based on various input features. It utilizes a machine learning model trained on a dataset of machine records and failure information. The model predicts whether a machine is in need of maintenance or not.
+This project aims to predict machine maintenance based on various input features. It utilizes a machine learning model trained on a dataset of machine records and failure information. The model predicts whether a machine is in need of maintenance or not. Try using the app through this link: [Test App](https://predictive-machine-maintenance-swv01.streamlit.app/)
 
 ## Table of Contents
 - [Usage](#usage)
