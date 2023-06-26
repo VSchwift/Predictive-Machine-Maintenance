@@ -12,6 +12,8 @@ except ImportError:
     st.info("Installing joblib...")
     subprocess.check_call(["pip", "install", "joblib"])
     st.success("joblib installed!")
+import joblib
+
 
 model = joblib.load('rfc_model.joblib')
 
