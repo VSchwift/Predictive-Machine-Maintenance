@@ -3,7 +3,15 @@ from utils import preprocess_input, columns
 
 import pandas as pd
 import numpy as np
-import joblib
+import subprocess
+
+# Check if joblib is installed, if not, install it
+try:
+    import joblib
+except ImportError:
+    st.info("Installing joblib...")
+    subprocess.check_call(["pip", "install", "joblib"])
+    st.success("joblib installed!")
 
 model = joblib.load('rfc_model.joblib')
 
