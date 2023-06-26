@@ -38,7 +38,7 @@ The model was trained using the machine records dataset. The dataset was preproc
 The machine maintenance prediction model achieved an accuracy of 99.6% on the test dataset. The classification report and confusion matrix provide further evaluation metrics for the model's performance.
 The most notable features that contribute to the prediction are Rotational speed [rpm], Torque [Nm], and Total wear [min]. 
 
-![Machine Maintenance](images/machine-maintenance.png)
+![Machine Maintenance](feat_imp.png)
 
 
 
