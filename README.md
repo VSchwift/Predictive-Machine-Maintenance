@@ -39,6 +39,3 @@ The machine maintenance prediction model achieved an accuracy of 99.6% on the te
 The most notable features that contribute to the prediction are Rotational speed [rpm], Torque [Nm], and Total wear [min]. 
 
 ![Machine Maintenance](feat_imp.png)
-
-
-
